@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.API", "PharmacyManagement.API\PharmacyManagement.API.csproj", "{6A86D833-E129-412D-8AD5-08BA819FB9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.Core", "PharmacyManagement.Core\PharmacyManagement.Core.csproj", "{DC19BA1D-DE57-47E7-9322-795696936710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.Infrastructure", "PharmacyManagement.Infrastructure\PharmacyManagement.Infrastructure.csproj", "{676CD12E-B809-44F6-ACD1-AF55D13D2D86}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A86D833-E129-412D-8AD5-08BA819FB9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A86D833-E129-412D-8AD5-08BA819FB9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A86D833-E129-412D-8AD5-08BA819FB9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A86D833-E129-412D-8AD5-08BA819FB9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC19BA1D-DE57-47E7-9322-795696936710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC19BA1D-DE57-47E7-9322-795696936710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC19BA1D-DE57-47E7-9322-795696936710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC19BA1D-DE57-47E7-9322-795696936710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676CD12E-B809-44F6-ACD1-AF55D13D2D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676CD12E-B809-44F6-ACD1-AF55D13D2D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676CD12E-B809-44F6-ACD1-AF55D13D2D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676CD12E-B809-44F6-ACD1-AF55D13D2D86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
