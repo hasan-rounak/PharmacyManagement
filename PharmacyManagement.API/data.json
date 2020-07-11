@@ -1,0 +1,13 @@
+{
+  "medicine": [
+    {
+      "id": "1314855257fe437cb0260119b14808a9",
+      "name": "m1",
+      "brand": "b2",
+      "price": 10.0,
+      "quantity": 10,
+      "expiryDate": "2020-07-11T18:42:42.597Z",
+      "notes": "string"
+    }
+  ]
+}

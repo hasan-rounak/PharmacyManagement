@@ -18,7 +18,7 @@ namespace PharmacyManagement.API.Controllers
     {
         public MedicineController(IMediator mediator) : base(mediator){}
 
-        [HttpGet("search")]
+        [HttpGet()]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<IEnumerable<MedicineDTO>>> SearchMedicineByName([FromQuery] MedicineByNameQuery searchMedicine)
@@ -42,6 +42,7 @@ namespace PharmacyManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<MedicineDTO>>UpdateMedicine([FromRoute] string id, [FromBody] MedicineUpdateCommand medicine)
         {
+            medicine.Id = id;
             return await CommandAsync(medicine);
         }
 

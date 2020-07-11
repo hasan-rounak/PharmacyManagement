@@ -1,8 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonFlatFileDataStore" Version="2.2.2" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PharmacyManagement.Core\PharmacyManagement.Core.csproj" />

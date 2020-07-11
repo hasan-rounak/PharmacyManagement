@@ -22,9 +22,18 @@ namespace PharmacyManagement.Core.CommandHandler
 
         public async Task<MedicineDTO> Handle(MedicineAddCommand request, CancellationToken cancellationToken)
         {
-            Medicine medicine =
+            try
+            {
+                Medicine medicine =
               await _medicineRepository.AddMedicine(_mapper.Map<Medicine>(request));
-            return this._mapper.Map<MedicineDTO>(medicine);
+                return this._mapper.Map<MedicineDTO>(medicine);
+            }
+            catch (System.Exception ex)
+            {
+
+                throw;
+            }
+            
         }
     }
 }
