@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace PharmacyManagement.Infrastructure.Repository
+namespace PharmacyManagement.Data.Repository
 {
     using Core.Interface;
     using Core.Model;

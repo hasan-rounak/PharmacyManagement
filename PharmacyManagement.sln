@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.API", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.Core", "PharmacyManagement.Core\PharmacyManagement.Core.csproj", "{DC19BA1D-DE57-47E7-9322-795696936710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.Infrastructure", "PharmacyManagement.Infrastructure\PharmacyManagement.Infrastructure.csproj", "{676CD12E-B809-44F6-ACD1-AF55D13D2D86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyManagement.Data", "PharmacyManagement.Infrastructure\PharmacyManagement.Data.csproj", "{676CD12E-B809-44F6-ACD1-AF55D13D2D86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
