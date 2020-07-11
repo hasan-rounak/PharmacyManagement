@@ -1,9 +1,8 @@
 ﻿namespace PharmacyManagement.Core.Command
 {
-    using MediatR;
     using DTO;
+    using MediatR;
     using Model;
-    using System.Collections.Generic;
 
     public class MedicineUpdateCommand : Medicine, IRequest<MedicineDTO>
     {
