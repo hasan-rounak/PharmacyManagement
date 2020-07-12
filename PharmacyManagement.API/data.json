@@ -1,13 +1,58 @@
 {
   "medicine": [
     {
-      "id": "1314855257fe437cb0260119b14808a9",
-      "name": "m1",
-      "brand": "b2",
-      "price": 10.0,
-      "quantity": 10,
-      "expiryDate": "2020-07-11T18:42:42.597Z",
-      "notes": "string"
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e66",
+      "name": "Calpol",
+      "brand": "GSK",
+      "price": 2500.0,
+      "quantity": 50,
+      "expiryDate": "2020-08-11T00:00:00",
+      "notes": "Feaver"
+    },
+    {
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e67",
+      "name": "Crocin",
+      "brand": "GSK",
+      "price": 5000.0,
+      "quantity": 150,
+      "expiryDate": "2020-08-11T00:00:00",
+      "notes": "Prescription Needed"
+    },
+    {
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e68",
+      "name": "Atarax",
+      "brand": "Dr Reddy",
+      "price": 6000.0,
+      "quantity": 150,
+      "expiryDate": "2021-08-11T00:00:00",
+      "notes": "Prescription Needed"
+    },
+    {
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e69",
+      "name": "Maxtra",
+      "brand": "Zuventra",
+      "price": 1000.0,
+      "quantity": 9,
+      "expiryDate": "2021-06-10T00:00:00",
+      "notes": "Prescription Needed"
+    },
+    {
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e70",
+      "name": "Calvam",
+      "brand": "Alkem",
+      "price": 2000.0,
+      "quantity": 79,
+      "expiryDate": "2021-03-11T00:00:00",
+      "notes": "Prescription Needed"
+    },
+    {
+      "id": "14be4442b5a442e4bdcbc1c7fa8b4e71",
+      "name": "Cipcal",
+      "brand": "Cipla",
+      "price": 8000.0,
+      "quantity": 99,
+      "expiryDate": "2021-09-11T00:00:00",
+      "notes": "Prescription Needed"
     }
   ]
 }
